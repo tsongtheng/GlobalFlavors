@@ -14,12 +14,8 @@
     align-items: center;
   }
   
-  .app__navbar-logo {
+  .app__navbar-logo img {
     width: 150px;
-    color: white;
-    font-size: 25px;
-    letter-spacing: .5px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
   
   .app__navbar-links {
@@ -38,4 +34,26 @@
   
   .app__navbar-links li:hover {
     color: var(--color-grey);
+  }
+
+  .app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .app__navbar-login a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
+
+  .app__navbar-login a:hover {
+    border-bottom: .5px solid var(--color-golden);
+  }
+
+  .app__navbar-login div {
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-grey);
   }
