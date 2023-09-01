@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import './Header.css';
+import { SubHeading } from "../../components";
+import { images } from "../../constants";
+import "./Header.css";
 
 const Header = () => (
-  <div>
-    Header
+  <div className="app__header app_wrapper section__padding" id="home">
+    <div className="app__wrapper_info">
+      <SubHeading title="chase the new  flavour" />
+      <h1 className="app__header-h1">The Key to Fine Dining</h1>
+    </div>
+    <div className="app__wrapper_img"></div>
   </div>
 );
 
