@@ -23,10 +23,6 @@ const AboutUs = () => (
         </button>
       </div>
 
-      {/* <div className="app__aboutus-content_spoon1 flex__center">
-        <img src={images.spoon1} alt="about_spoon1" />
-      </div> */}
-
       <div className="app__aboutus-content_history">
         <h1 className="headtext__baskerville">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />

@@ -55,18 +55,58 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .app__aboutus-content {
-    flex-direction: column;
-  }
-  .app__aboutus-content_spoon2 {
-    margin: 4rem 0;
+@media screen and (max-width: 1536px) {
+  .app__aboutus-overlay img {
+    width: 370px;
+    height: 320px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1280px) {
   .app__aboutus-overlay img {
-    width: 80%;
-    height: 320px;
+    width: 350;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .app__aboutus-overlay img {
+    width: 320px;
+    height: 280px;
+  }
+
+  .app__aboutus-content_about,
+  .app__aboutus-content_history {
+    align-items: center;
+  }
+
+  .app__aboutus-content_about p,
+  .app__aboutus-content_history p {
+    color: var(--color-white);
+    text-align: center;
+    width: 100%;
+  }
+
+  .app__aboutus-overlay {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .app__aboutus-overlay img {
+    width: 300px;
+    height: 260px;
+  }
+}
+
+/* ##################################################################################### */
+@media screen and (max-width: 640px) {
+  .app__aboutus-overlay img {
+    height: 240px;
+  }
+}
+
+/* ############################################################## */
+@media screen and (max-width: 450px) {
+  .app__aboutus-overlay img {
+    height: 220px;
   }
 }

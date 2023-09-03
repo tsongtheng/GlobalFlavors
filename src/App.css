@@ -51,7 +51,7 @@
 }
 
 .app__wrapper_img img {
-  width: 80%;
+  width: 70%;
 }
 
 .custom__button {
@@ -125,11 +125,7 @@
   }
 }
 
-@media screen and (max-width: 1150px) {
-  .app__wrapper {
-    flex-direction: column;
-  }
-
+@media screen and (max-width: 1536px) {
   .app__wrapper_img {
     margin: 5rem 0 0 0;
   }
@@ -139,17 +135,47 @@
   }
 
   .app__wrapper_img img {
-    width: 100%;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
+  .app__wrapper {
+    flex-direction: column;
+  }
+
+  .headtext__baskerville {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .app__wrapper_img img {
+    width: 100%;
+  }
+
+  .custom__button {
+    letter-spacing: 0.04em;
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .p__baskerville {
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  .spoon__img {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .section__padding {
     padding: 4rem;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
   .section__padding {
     padding: 4rem 2rem;
   }
