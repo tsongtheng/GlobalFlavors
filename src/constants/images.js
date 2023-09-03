@@ -19,7 +19,8 @@ import award03 from "../assets/award03.png";
 import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
-import globalflavors from "../assets/globalflavors.png";
+import globalflavors from "../assets/globalflavors.svg";
+import backgroundimg from "../assets/backgroundimg.jpg";
 
 export default {
   bg,
@@ -44,4 +45,5 @@ export default {
   sign,
   quote,
   globalflavors,
+  backgroundimg,
 };

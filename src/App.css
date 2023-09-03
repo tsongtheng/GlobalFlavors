@@ -9,7 +9,9 @@
 }
 
 .app__bg {
-  background: url("./assets/bg.png");
+  background: url("./assets/backgroundimg.jpg");
+
+  background-blend-mode: hard-light;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -21,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
 
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .app__wrapper_info {
@@ -69,7 +71,7 @@
 
 .p__baskerville {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-gray);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -80,7 +82,7 @@
 
 .p__opensans {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: var(--color-gray);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -113,7 +115,7 @@
     line-height: 50px;
   }
 
-  .headtext__cormorant {
+  .headtext__baskerville {
     font-size: 150px;
     line-height: 210px;
   }

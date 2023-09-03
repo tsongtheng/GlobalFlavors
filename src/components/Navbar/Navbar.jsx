@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#menu"></a>Menu
+          <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
           <a href="#awards">Awards</a>
@@ -41,11 +41,7 @@ const Navbar = () => {
       </div>
 
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu
-          color="#fff"
-          fontSize={27}
-          onClick={() => setToggleMenu(true)}
-        />
+        <GiHamburgerMenu fontSize={27} onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
