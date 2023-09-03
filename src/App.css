@@ -55,7 +55,7 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: var(--color-golden);
   color: var(--color-black);
   font-family: var(--font-base);
   font-weight: 700;
@@ -87,7 +87,7 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .headtext__baskerville {
@@ -136,6 +136,12 @@
 
   .app__wrapper_img img {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .p__opensans {
+    font-size: 16px;
   }
 }
 
