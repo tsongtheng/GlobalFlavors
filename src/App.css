@@ -222,3 +222,30 @@
     line-height: 70px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .section__padding {
+    padding: 2rem;
+  }
+
+  .headtext__baskerville {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .p__opensans {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .custom__button {
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 10px;
+    padding: 0.1rem 0.5rem;
+  }
+
+  .spoon__img {
+    width: 15px;
+  }
+}
