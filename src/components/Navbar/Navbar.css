@@ -89,7 +89,7 @@
 
 .app__navbar-smallscreen_overlay .overlay__close {
   font-size: 27px;
-  color: var(--color-gray);
+  color: var(--color-golden);
   cursor: pointer;
 
   position: absolute;
@@ -109,15 +109,16 @@
 .app__navbar-smallscreen_links li {
   margin: 2rem;
   cursor: pointer;
-  color: var(--color-gray);
+  color: var(--color-golden);
   font-size: 2rem;
+  font-weight: 700;
   text-align: center;
   font-family: var(--font-base);
-  transition: 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .app__navbar-smallscreen_links li:hover {
-  color: var(--color-black);
+  color: var(--color-gray);
 }
 
 @media screen and (min-width: 2000px) {

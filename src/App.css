@@ -52,6 +52,13 @@
 
 .app__wrapper_img img {
   width: 70%;
+
+  filter: brightness(0.8);
+  transition: all 0.5s ease-in-out;
+}
+
+.app__wrapper_img img:hover {
+  filter: brightness(1);
 }
 
 .custom__button {
@@ -61,23 +68,29 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 20px;
   padding: 0.5rem 1.5rem;
   border-radius: 1px;
   border: none;
   outline: none;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.custom__button:hover {
+  background-color: #9e6f21;
+  color: var(--color-white);
 }
 
 .p__baskerville {
   font-family: var(--font-base);
-  color: var(--color-gray);
+  color: var(--color-black);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 28px;
 }
 
 .p__opensans {
