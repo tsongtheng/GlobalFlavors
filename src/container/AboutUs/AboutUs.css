@@ -45,10 +45,6 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .app__aboutus-content_spoon1 img {
-    height: 1110px;
-  }
-
   .app__aboutus-content_about p,
   .app__aboutus-content_history p {
     margin: 4rem 0;

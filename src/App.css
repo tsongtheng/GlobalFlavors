@@ -119,22 +119,22 @@
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__baskerville {
-    font-size: 37px;
-    line-height: 67px;
+    font-size: 35px;
+    line-height: 40px;
   }
 
   .p__opensans {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 30px;
   }
 
   .headtext__baskerville {
-    font-size: 150px;
-    line-height: 210px;
+    font-size: 100px;
+    line-height: 150px;
   }
 
   .spoon__img {
-    width: 80px;
+    width: 70px;
   }
 }
 
@@ -155,6 +155,16 @@
 @media screen and (max-width: 1280px) {
   .p__opensans {
     font-size: 16px;
+  }
+
+  .app__specialMenu_menu_items .p__baskerville {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .app__specialMenu_menu_items .p__opensans {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -214,12 +224,26 @@
   }
 
   .p__baskerville {
-    font-size: 19px;
+    font-size: 12px;
   }
 
   .headtext__baskerville {
-    font-size: 45px;
-    line-height: 70px;
+    font-size: 28px;
+    line-height: 26px;
+  }
+
+  .app__specialMenu_menu_items .p__baskerville {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .app__specialMenu_menu_items .p__opensans {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .spoon__img {
+    width: 17px;
   }
 }
 
@@ -229,8 +253,23 @@
   }
 
   .headtext__baskerville {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 25px;
+  }
+
+  .p__baskerville {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .app__specialMenu_menu_items .p__baskerville {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .app__specialMenu_menu_items .p__opensans {
+    font-size: 12px;
+    line-height: 20px;
   }
 
   .p__opensans {
@@ -241,8 +280,8 @@
   .custom__button {
     font-weight: 700;
     line-height: 15px;
-    font-size: 10px;
-    padding: 0.1rem 0.5rem;
+    font-size: 12px;
+    padding: 0.3rem 0.5rem;
   }
 
   .spoon__img {
