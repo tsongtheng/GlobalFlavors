@@ -1,0 +1,124 @@
+.app__chef {
+  background-color: var(--color-white);
+}
+
+.app__chef-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 5rem;
+}
+
+.p__onpensans-chef_quote {
+  font-style: italic;
+}
+
+.app__chef-content_quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.app__chef-content_quote img {
+  width: 47px;
+  height: 40px;
+  margin: 0 1rem 1rem 0;
+}
+
+.app__chef-sign {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.app__chef-sign p:first-child {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41.6px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+.app__chef-sign img {
+  width: 250px;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__chef-sign img {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .app__chef-sign img {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .app__chef-sign img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app__chef-sign img {
+    width: 180px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .app__chef-content_quote img {
+    width: 40px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .app__chef-sign img {
+    width: 140px;
+  }
+
+  .app__chef-content_quote img {
+    width: 33px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__chef-sign img {
+    width: 120px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .app__chef-content_quote img {
+    width: 26px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .app__chef-sign img {
+    width: 100px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .app__chef-content_quote img {
+    width: 19px;
+    height: 20px;
+  }
+}

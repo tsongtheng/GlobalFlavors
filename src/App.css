@@ -23,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
 
-  min-height: 90vh;
+  min-height: 95vh;
 }
 
 .app__wrapper_info {
@@ -46,19 +46,13 @@
 }
 
 .app__wrapper_img-reverse {
-  justify-content: flex-start;
-  margin-right: 2rem;
+  justify-content: end;
+  align-items: center;
+  margin-right: 3rem;
 }
 
 .app__wrapper_img img {
-  width: 70%;
-
-  filter: brightness(0.85);
-  transition: all 0.5s ease-in-out;
-}
-
-.app__wrapper_img img:hover {
-  filter: brightness(1);
+  width: 60%;
 }
 
 .custom__button {
@@ -100,7 +94,7 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 28px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .headtext__baskerville {
