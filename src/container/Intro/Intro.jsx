@@ -28,7 +28,13 @@ const Intro = () => {
         controls={false}
         muted
       />
-      <div className="app__video-overlay flex__center">
+      <div
+        className={
+          !playVideo
+            ? "app__video-overlay app__video-bg flex__center"
+            : "app__video-overlay  flex__center"
+        }
+      >
         <div
           className="app__video-overlay_circle flex__center"
           onClick={handleVideo}
