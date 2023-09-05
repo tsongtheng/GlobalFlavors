@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
+import { BsFillPlayFill, BsPauseFill } from "react-icons";
 
-import './Intro.css';
+import { meal } from "../../constants";
+import "./Intro.css";
 
 const Intro = () => (
-  <div>
-    Intro
+  <div className="app__video">
+    <video src={meal} />
   </div>
 );
 
