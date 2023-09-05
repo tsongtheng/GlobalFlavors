@@ -46,9 +46,9 @@
 }
 
 .app__wrapper_img-reverse {
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 
 .app__wrapper_img img {

@@ -1,5 +1,12 @@
-.app__chef {
-  background-color: var(--color-white);
+.app__chef-bg {
+  background-image: linear-gradient(
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.7)
+    ),
+    url("./../../assets/chef-bg.jpg");
+
+  background-position: center;
+  background-size: cover;
 }
 
 .app__chef-content {
