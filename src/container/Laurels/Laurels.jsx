@@ -21,7 +21,11 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
 };
 
 const Laurels = () => (
-  <div className="app__wrapper section__padding" id="awards">
+  <div className="app__wrapper-laurels section__padding" id="awards">
+    <div className="app__laurels-logo">
+      <img src={images.logo} alt="laurels" />
+    </div>
+
     <div className="app__wrapper_info">
       <SubHeading title="Awards & recognition" />
       <h1 className="headtext__baskerville">Our Laurels</h1>
@@ -32,7 +36,7 @@ const Laurels = () => (
         ))}
       </div>
     </div>
-    <div className="app__wrapper_img">
+    <div className="app__laurels_img">
       <img src={images.laurels} alt="laurels" />
     </div>
   </div>
