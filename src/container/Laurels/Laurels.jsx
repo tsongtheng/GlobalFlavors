@@ -8,6 +8,14 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
   return (
     <div className="app__laurels_awards-card">
       <img src={imgUrl} alt="award" />
+      <div className="app__laurels_awards-card_content">
+        <p className="p__baskerville" style={{ color: "#C69749" }}>
+          {title}
+        </p>
+        <p className="p__opensans" style={{ color: "#C69749" }}>
+          {subtitle}
+        </p>
+      </div>
     </div>
   );
 };
