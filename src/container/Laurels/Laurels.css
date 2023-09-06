@@ -54,3 +54,44 @@
 .app__laurels_img img {
   width: 70%;
 }
+
+@media screen and (min-width: 2000px) {
+  .app__laurels-logo img {
+    width: 75%;
+  }
+
+  .app__laurels_awards-card img {
+    width: 28%;
+  }
+
+  .app__laurels_img img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app__wrapper-laurels {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.8fr 0.1fr;
+  }
+
+  .app__laurels-logo {
+    justify-content: center;
+  }
+
+  .app__laurels-logo img {
+    width: 20%;
+  }
+
+  .app__laurels_img {
+    margin: 0;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .app__laurels_awards-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
