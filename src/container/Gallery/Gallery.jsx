@@ -10,6 +10,18 @@ import { data } from "../../constants";
 import "./Gallery.css";
 
 const Gallery = () => {
+  const scrollRef = React.useRef(null);
+
+  const scroll = (direction) => {
+    const { current } = scrollRef;
+
+    if (direction === "left") {
+      current.scrollLeft -= 300;
+    } else {
+      current.scrollLeft += 300;
+    }
+  };
+
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
@@ -22,6 +34,17 @@ const Gallery = () => {
         <button type="button" className="custom__button">
           View MOre
         </button>
+      </div>
+
+      <div className="app__gallery-images">
+        <div className="app__gallery-images_container" ref={scrollRef}></div>
+      </div>
+
+      <div className="app__gallery-images_arrow">
+        <BsArrowLeftShort
+          className="gallery__arrow-icon"
+          onClick={() => scroll("left")}
+        />
       </div>
     </div>
   );
