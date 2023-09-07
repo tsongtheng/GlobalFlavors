@@ -31,4 +31,12 @@
   display: flex;
   width: max-content;
   overflow-x: scroll;
+
+  -ms-overflow-style: none; /* Hide the scrollbar in IE and Microsoft-Edge */
+  scrollbar-width: none; /* SUPPORTED IN FIREFOX. Not supported in google-chrome, IE & Microsoft-Edge*/
+}
+
+/* FOR GOOGLE-CHROME: to hide scrollbar*/
+.app__gallery-images_container::-webkit-scrollbar {
+  display: none;
 }
