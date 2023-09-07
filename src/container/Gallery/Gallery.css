@@ -19,3 +19,16 @@
 .app__gallery-content button {
   margin-top: 1rem;
 }
+
+.app__gallery-images {
+  display: flex;
+  flex: 1;
+  max-width: 50%;
+  position: relative;
+}
+
+.app__gallery-images_container {
+  display: flex;
+  width: max-content;
+  overflow-x: scroll;
+}
