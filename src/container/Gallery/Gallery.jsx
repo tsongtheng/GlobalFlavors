@@ -1,11 +1,22 @@
-import React from 'react';
+import React from "react";
+import {
+  BsInstagram,
+  BsArrowLeftShort,
+  BsArrowRightShort,
+} from "react-icons/bs";
 
-import './Gallery.css';
+import { SubHeading } from "../../components";
+import { data } from "../../constants";
+import "./Gallery.css";
 
-const Gallery = () => (
-  <div>
-    Gallery
-  </div>
-);
+const Gallery = () => {
+  return (
+    <div className="app__gallery flex__center">
+      <div className="app__gallery-content">
+        <SubHeading title="Instagram" />
+      </div>
+    </div>
+  );
+};
 
 export default Gallery;
