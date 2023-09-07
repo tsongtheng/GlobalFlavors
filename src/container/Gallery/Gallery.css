@@ -40,3 +40,9 @@
 .app__gallery-images_container::-webkit-scrollbar {
   display: none;
 }
+
+.app__gallery-images_card {
+  min-width: 301px;
+  height: 447px;
+  margin-right: 2rem;
+}
