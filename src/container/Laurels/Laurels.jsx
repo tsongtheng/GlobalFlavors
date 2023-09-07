@@ -12,9 +12,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
         <p className="p__baskerville" style={{ color: "#C69749" }}>
           {title}
         </p>
-        <p className="p__opensans" style={{ color: "#C69749" }}>
-          {subtitle}
-        </p>
+        <p className="p__opensans">{subtitle}</p>
       </div>
     </div>
   );
