@@ -10,8 +10,7 @@ const FindUs = () => (
       <h1 className="headtext__baskerville">Find Us</h1>
       <div className="app__wrapper-content">
         <p className="opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
         </p>
       </div>
     </div>
