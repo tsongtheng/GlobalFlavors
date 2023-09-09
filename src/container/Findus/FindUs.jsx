@@ -8,6 +8,12 @@ const FindUs = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
       <h1 className="headtext__baskerville">Find Us</h1>
+      <div className="app__wrapper-content">
+        <p className="opensans">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+          mattis ipsum turpis elit elit scelerisque egestas mu.
+        </p>
+      </div>
     </div>
 
     <div className="app__wrapper_img">
