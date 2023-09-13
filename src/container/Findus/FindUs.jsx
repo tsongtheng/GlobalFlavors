@@ -5,7 +5,7 @@ import { images } from "../../constants";
 
 const FindUs = () => (
   <div className="app__wrapper section__padding" id="contact">
-    <div className="app__wrapper_info">
+    <div className="app__wrapper_info" style={{ paddingLeft: "32px" }}>
       <SubHeading title="Contact" />
       <h1 className="headtext__baskerville" style={{ marginBottom: "3rem" }}>
         Find Us
