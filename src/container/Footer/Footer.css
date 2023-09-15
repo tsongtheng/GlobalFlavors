@@ -42,3 +42,14 @@
 .app__footer-links_icons {
   margin-top: 0.5rem;
 }
+
+.app__footer-links_icons svg {
+  color: var(--color-gray);
+  margin: 0.5rem;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.app__footer-links_icons svg:hover {
+  color: var(--color-golden);
+}
