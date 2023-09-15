@@ -92,6 +92,7 @@
 
   .app__header_photo {
     width: 50%;
+    outline-offset: 15px;
   }
 
   .app__header_photo--p1 {
@@ -108,6 +109,10 @@
     left: 27%;
     top: 12rem;
   }
+
+  .app__header_photo:hover {
+    outline: 0.8rem solid #dcca87;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -118,6 +123,11 @@
 
   .app__header_photo {
     width: 45%;
+    outline-offset: 10px;
+  }
+
+  .app__header_photo:hover {
+    outline: 0.6rem solid #dcca87;
   }
 }
 
