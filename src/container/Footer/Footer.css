@@ -11,3 +11,13 @@
   /* background: var(--color-black); */
   padding-top: 0;
 }
+
+.app__footer-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
