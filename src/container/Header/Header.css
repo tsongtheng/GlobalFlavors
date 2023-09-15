@@ -1,4 +1,8 @@
 .app__header {
+  display: flex;
+  gap: 10%;
+
+  min-height: 95vh;
   background-color: var(--color-white);
 }
 
@@ -12,13 +16,66 @@
   font-size: 80px;
 }
 
+.app__header_info {
+  width: 100%;
+}
+
+/* This is updated images */
+
+.app__header_img--container {
+  width: 100%;
+}
+
+.app__header_img {
+  position: relative;
+}
+
+.app__header_photo {
+  position: absolute;
+  width: 55%;
+  box-shadow: 0 1.5rem 4rem rgba(black, 0.4);
+  border-radius: 2px;
+
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 20px;
+}
+
+.app__header_photo--p1 {
+  left: 0;
+  top: 5rem;
+}
+
+.app__header_photo--p2 {
+  right: 0;
+  top: 8rem;
+}
+
+.app__header_photo--p3 {
+  left: 27%;
+  top: 14rem;
+}
+
+.app__header_photo:hover {
+  outline: 1rem solid #dcca87;
+  transform: scale(1.05);
+  box-shadow: 0 2.5rem 4rem rgba(black, 0.5);
+  z-index: 20;
+}
+
+.app__header_img:hover .app__header_photo:not(:hover) {
+  transform: scale(0.85);
+}
+
+/*MEDIA QUERIES*/
+
 @media screen and (min-width: 2000px) {
   .app__header-h1 {
     line-height: 150px;
     font-size: 120px;
   }
 
-  .app__wrapper_img img {
+  .app__header_img img {
     width: 100%;
   }
 }
@@ -29,8 +86,27 @@
     font-size: 60px;
   }
 
-  .app__wrapper_img img {
-    width: 80%;
+  .app__header_img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app__header_photo {
+    width: 50%;
+  }
+
+  .app__header_photo--p1 {
+    left: 7px;
+    top: 7rem;
+  }
+
+  .app__header_photo--p2 {
+    right: 2%;
+    top: 8rem;
+  }
+
+  .app__header_photo--p3 {
+    left: 27%;
+    top: 12rem;
   }
 }
 
@@ -39,6 +115,10 @@
     line-height: 80px;
     font-size: 50px;
   }
+
+  .app__header_photo {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -46,12 +126,36 @@
     font-size: 50px;
     line-height: 50px;
   }
+
+  .app__header {
+    flex-direction: column;
+  }
+
+  .app__header_photo {
+    width: 100%;
+    position: static;
+    /* z-index: 1; */
+  }
+
+  .app__header_photo:hover {
+    outline: none;
+    transform: scale(1);
+    box-shadow: 0 1.5rem 4rem rgba(black, 0.4);
+  }
+
+  .app__header_img:hover .app__header_photo:not(:hover) {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 768px) {
   .app__header-h1 {
     font-size: 30px;
     line-height: 53px;
+  }
+
+  .section__padding {
+    padding: 4rem;
   }
 }
 
