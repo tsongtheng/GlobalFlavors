@@ -20,7 +20,11 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.globalflavors} alt="footer_logo" />
+        <img
+          src={images.globalflavors}
+          alt="footer_logo"
+          style={{ width: 100 }}
+        />
         <p className="p__opensans">
           "The best way to find yourself is to lose yourself in the service of
           others.”
