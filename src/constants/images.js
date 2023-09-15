@@ -21,6 +21,9 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import globalflavors from "../assets/globalflavors.svg";
 import backgroundimg from "../assets/backgroundimg.jpg";
+import food1 from "../assets/food1.jpg";
+import food2 from "../assets/food2.jpg";
+import food3 from "../assets/food3.jpg";
 
 export default {
   bg,
@@ -46,4 +49,7 @@ export default {
   quote,
   globalflavors,
   backgroundimg,
+  food1,
+  food2,
+  food3,
 };
