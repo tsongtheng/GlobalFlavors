@@ -1,9 +1,9 @@
 .app__gallery {
   display: flex;
   flex-direction: row;
-  gap: 20%;
+  gap: 10%;
 
-  padding: 4rem 0 4rem 6rem;
+  padding: 4rem 1rem 4rem 6rem;
   position: relative;
 }
 
