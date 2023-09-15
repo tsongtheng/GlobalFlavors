@@ -109,6 +109,17 @@
   width: 45px;
 }
 
+.laurels {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 28px;
+}
+
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__baskerville {

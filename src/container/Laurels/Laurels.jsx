@@ -12,7 +12,9 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
         <p className="p__baskerville" style={{ color: "#C69749" }}>
           {title}
         </p>
-        <p className="p__opensans">{subtitle}</p>
+        <p className="p__opensans" style={{ color: "#f5f5f5" }}>
+          {subtitle}
+        </p>
       </div>
     </div>
   );
@@ -26,6 +28,7 @@ const Laurels = () => (
 
     <div className="app__wrapper_info">
       <SubHeading title="Awards & recognition" />
+
       <h1 className="headtext__baskerville">Our Laurels</h1>
 
       <div className="app__laurels_awards">

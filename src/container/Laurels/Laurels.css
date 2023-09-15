@@ -4,7 +4,10 @@
   grid-template-columns: 1fr 3.5fr 3fr;
   grid-template-rows: 95vh;
 
-  min-height: 100vh;
+  background-color: var(--color-black);
+
+  border: 0.5rem solid var(--color-golden);
+  margin: 4rem 0.5rem;
 }
 
 .app__laurels-logo {
