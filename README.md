@@ -13,11 +13,9 @@ GlobalFlavors is a web-based restaurant application designed to showcase a diver
 - **Responsive Design:** Enjoy a seamless experience on desktop and mobile devices.
 - **Admin Panel:** Manage restaurant listings, dishes, and user reviews (for administrators).
 
-## Screenshots of the application
+## Application Demo
 
-<video controls width="400">
-  <source src="https://ik.imagekit.io/415qe0hcb/globalflavors.mp4?updatedAt=1694890885052" type="video/mp4">
-</video>
+![Demo-Application](https://ik.imagekit.io/415qe0hcb/globalflavors.gif?updatedAt=1694892782420)
 
 ## Checkout the App
 
