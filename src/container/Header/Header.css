@@ -34,7 +34,7 @@
   position: absolute;
   width: 55%;
   box-shadow: 0 1.5rem 4rem rgba(black, 0.4);
-  border-radius: 2px;
+  /* border-radius: 2px; */
 
   z-index: 10;
   transition: all 0.2s;
