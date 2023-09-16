@@ -6,15 +6,15 @@ import {
 } from "react-icons/bs";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
 import "./Gallery.css";
+import {
+  gallery01,
+  gallery02,
+  gallery03,
+  gallery04,
+} from "../../constants/images";
 
-const galleryImages = [
-  images.gallery01,
-  images.gallery02,
-  images.gallery03,
-  images.gallery04,
-];
+const galleryImages = [gallery01, gallery02, gallery03, gallery04];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);

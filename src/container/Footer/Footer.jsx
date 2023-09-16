@@ -2,9 +2,9 @@ import React from "react";
 import { FiFacebook, FiX, FiInstagram, FiSidebar } from "react-icons/fi";
 
 import { FooterOverlay, Newsletter } from "../../components";
-import { images } from "../../constants";
 
 import "./Footer.css";
+import { globalflavors, spoon } from "../../constants/images";
 
 const Footer = () => (
   <div className="app__footer section__padding">
@@ -20,17 +20,13 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img
-          src={images.globalflavors}
-          alt="footer_logo"
-          style={{ width: 100 }}
-        />
+        <img src={globalflavors} alt="footer_logo" style={{ width: 100 }} />
         <p className="p__opensans">
           "The best way to find yourself is to lose yourself in the service of
           others.”
         </p>
         <img
-          src={images.spoon}
+          src={spoon}
           alt="footer_logo"
           className="spoon__img"
           style={{ marginTop: 15 }}

@@ -1,8 +1,9 @@
 import React from "react";
 
 import { SubHeading } from "../../components";
-import { data, images } from "../../constants";
 import "./Laurels.css";
+import { laurels, logo } from "../../constants/images";
+import { awards } from "../../constants/data";
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
   return (
@@ -20,27 +21,29 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
   );
 };
 
-const Laurels = () => (
-  <div className="app__wrapper-laurels section__padding" id="awards">
-    <div className="app__laurels-logo">
-      <img src={images.logo} alt="laurels" />
-    </div>
+const Laurels = () => {
+  return (
+    <div className="app__wrapper-laurels section__padding" id="awards">
+      <div className="app__laurels-logo">
+        <img src={logo} alt="laurels" />
+      </div>
 
-    <div className="app__wrapper_info">
-      <SubHeading title="Awards & recognition" />
+      <div className="app__wrapper_info">
+        <SubHeading title="Awards & recognition" />
 
-      <h1 className="headtext__baskerville">Our Laurels</h1>
+        <h1 className="headtext__baskerville">Our Laurels</h1>
 
-      <div className="app__laurels_awards">
-        {data.awards.map((award) => (
-          <AwardCard award={award} key={award.title} />
-        ))}
+        <div className="app__laurels_awards">
+          {awards.map((award) => (
+            <AwardCard award={award} key={award.title} />
+          ))}
+        </div>
+      </div>
+      <div className="app__laurels_img">
+        <img src={laurels} alt="laurels" />
       </div>
     </div>
-    <div className="app__laurels_img">
-      <img src={images.laurels} alt="laurels" />
-    </div>
-  </div>
-);
+  );
+};
 
 export default Laurels;

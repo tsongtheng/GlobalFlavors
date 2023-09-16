@@ -1,8 +1,8 @@
 import React from "react";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
 import "./Header.css";
+import { food1, food2, food3 } from "../../constants/images";
 
 const Header = () => {
   return (
@@ -21,20 +21,19 @@ const Header = () => {
       </div>
       <div className="app__header_img--container">
         <div className="app__header_img">
-          {/* <img src={images.welcome} alt="header img" /> */}
           <img
-            src={images.food1}
+            src={food1}
             alt="food 1"
             className="app__header_photo app__header_photo--p1"
             onMou
           />
           <img
-            src={images.food2}
+            src={food2}
             alt="food 2"
             className="app__header_photo app__header_photo--p2"
           />
           <img
-            src={images.food3}
+            src={food3}
             alt="food 3"
             className="app__header_photo app__header_photo--p3"
           />
