@@ -1,5 +1,5 @@
 import React from "react";
-import { FiFacebook, FiX, FiInstagram, FiSidebar } from "react-icons/fi";
+import { FiFacebook, FiX, FiInstagram } from "react-icons/fi";
 
 import { FooterOverlay, Newsletter } from "../../components";
 
