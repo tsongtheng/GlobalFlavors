@@ -30,7 +30,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center section__padding">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__baskerville">Photo Gallery</h1>
