@@ -4,7 +4,11 @@ import { SubHeading } from "../../components";
 import { findus } from "../../constants/images";
 
 const FindUs = () => (
-  <div className="app__wrapper section__padding" id="contact">
+  <div
+    className="app__wrapper section__padding"
+    id="contact"
+    style={{ backgroundColor: "#f5f5f5" }}
+  >
     <div className="app__wrapper_info" style={{ paddingLeft: "32px" }}>
       <SubHeading title="Contact" />
       <h1 className="headtext__baskerville" style={{ marginBottom: "3rem" }}>
