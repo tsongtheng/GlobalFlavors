@@ -75,8 +75,28 @@
     font-size: 120px;
   }
 
-  .app__header_img img {
-    width: 100%;
+  .app__header_photo {
+    width: 65%;
+    outline-offset: 25px;
+  }
+
+  .app__header_photo--p1 {
+    left: 3px;
+    top: 6rem;
+  }
+
+  .app__header_photo--p2 {
+    right: 0;
+    top: 10rem;
+  }
+
+  .app__header_photo--p3 {
+    left: 20%;
+    top: 18rem;
+  }
+
+  .app__header_photo:hover {
+    outline: 1.3rem solid #dcca87;
   }
 }
 
