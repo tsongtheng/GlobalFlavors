@@ -111,7 +111,7 @@
 
 .laurels {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-black);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
