@@ -17,12 +17,6 @@ GlobalFlavors is a web-based restaurant application designed to showcase a diver
 
 ![Demo-Application](https://ik.imagekit.io/415qe0hcb/globalflavors.gif?updatedAt=1694892782420)
 
-<br>
-<br>
-<br>
-
-<!-- ![Demo-Application](../globalflavors/src/assets/globalflavors.gif) -->
-
 ## Checkout the App
 
 https://globalflavors.netlify.app/
@@ -56,4 +50,9 @@ To launch the app, run the following command in the project's root directory:
 
 ## Technologies used:
 
-**CSS** **javascript**
+<br>
+<br>
+<div align="center">  
+<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>  
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+</div>
