@@ -131,10 +131,7 @@
   }
 
   .app__gallery-images_arrows {
-    gap: 70%;
-    justify-content: center;
-    right: -8%;
-    bottom: 30%;
+    display: none;
   }
 }
 
