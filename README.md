@@ -15,7 +15,7 @@ GlobalFlavors is a web-based restaurant application designed to showcase a diver
 
 ## Application Demo
 
-![Demo-Application](https://ik.imagekit.io/415qe0hcb/globalflavors.gif?updatedAt=1694892782420)
+![Demo-Application](https://ik.imagekit.io/415qe0hcb/global-flavors.gif?updatedAt=1695032152143)
 
 ## Checkout the App
 
