@@ -19,7 +19,7 @@ GlobalFlavors is a web-based restaurant application designed to showcase a diver
 
 ## Checkout the App
 
-https://globalflavors.netlify.app/
+[Click Me](https://globalflavors.netlify.app/)
 
 ## Getting Started
 
